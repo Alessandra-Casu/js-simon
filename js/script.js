@@ -12,7 +12,7 @@ const ex = new Date( `April ${currentDay + 1} 2023 09:30:00`);
 
 
 updateCountDownTime();
-
+setInterval(updateCountDownTime, 1000);
 
 
 
@@ -41,4 +41,3 @@ function updateCountDownTime(){
 
 }
 
-setInterval(updateCountDownTime, 1000);
